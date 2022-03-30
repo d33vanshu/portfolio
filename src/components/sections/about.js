@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
+import { Icon } from '@components/icons';
+// import 'boxicons';
 
 const StyledAboutSection = styled.section`
   max-width: 900px;
@@ -126,7 +128,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['TypeScript', 'Express', 'Eleventy', 'EJS', 'React Native', 'MySQL'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,29 +138,35 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              A MERN Stack Developer with a demonstrated history of working in the internet
-              industry. A detail-oriented professional seeking to contribute towards frontend
-              technologies and in developing novel products.
+              I'm a MERN Stack Developer, but you can call me a mathematician. Math has always been
+              a part of my life; in school, in Physics, and now in code. I love exploring, and that
+              led to me discovering the field of development. Early on, I realised I was very
+              interested in web development.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              I worked with{' '}
+              <a href="https://devfolio.co" target="_blank" rel="noreferrer">
+                Devfolio
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              for 1.5 years as a Community and Operations Associate and operated two major
+              hackathons–
+              <a href="https://hackinout.co" target="_blank" rel="noreferrer">
+                Hack InOut
+              </a>{' '}
+              and{' '}
+              <a href="https://ethindia.co" target="_blank" rel="noreferrer">
+                ETHIndia
+              </a>
+              . I think this is when I decided to seriously pursue a career in web development, and
+              that's how I landed at{' '}
+              <a href="https://masaischool.com" target="_blank" rel="noreferrer">
+                Masai School
+              </a>
+              . Currently, I'm skilled in both frontend and backend technology, especially MERN
+              Stack. At Masai School, I have built clones of major websites like PharmEasy, Myntra,
+              and OYORooms. I also worked here as Instructional Associate and worked on great
+              products.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -179,6 +187,60 @@ const About = () => {
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
             />
+          </div>
+          <div style={{ marginTop: '80px' }}>
+            <div
+              style={{
+                display: 'flex',
+                margin: 'auto',
+                justifyContent: 'space-evenly',
+              }}>
+              <div style={{ margin: '10px' }}>
+                <div style={{ height: '40px', width: '40px', margin: 'auto' }}>
+                  <Icon name="JavaScript" />
+                </div>
+                <p>JavaScript</p>
+              </div>
+
+              <div style={{ margin: '10px' }}>
+                <div style={{ height: '40px', width: '40px', margin: 'auto' }}>
+                  <Icon name="React" />
+                  <p style={{ textAlign: 'center' }}>React</p>
+                </div>
+              </div>
+              <div style={{ margin: '10px' }}>
+                <div style={{ height: '40px', width: '40px', margin: 'auto' }}>
+                  <Icon name="Redux" />
+                </div>
+                <p style={{ textAlign: 'center' }}>Redux</p>
+              </div>
+            </div>
+            <div
+              style={{
+                display: 'flex',
+                margin: 'auto',
+                justifyContent: 'space-evenly',
+              }}>
+              <div style={{ margin: '10px' }}>
+                <div style={{ height: '40px', width: '40px', margin: 'auto' }}>
+                  <Icon name="Mongo" />
+                </div>
+                <p style={{ textAlign: 'center' }}>MongoDB</p>
+              </div>
+
+              <div style={{ margin: '10px' }}>
+                <div style={{ height: '40px', width: '40px', margin: 'auto' }}>
+                  <Icon name="Node" />
+                  <p style={{ textAlign: 'center' }}>Nodejs</p>
+                </div>
+              </div>
+              <div style={{ margin: '10px' }}>
+                <div style={{ height: '40px', width: '40px', margin: 'auto' }}>
+                  <Icon name="CSS" />
+                  <p style={{ textAlign: 'center' }}>CSS</p>
+                </div>
+              </div>
+            </div>
           </div>
         </StyledPic>
       </div>

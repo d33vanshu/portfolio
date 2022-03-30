@@ -15,6 +15,12 @@ import {
   IconPlayStore,
   IconStar,
   IconTwitter,
+  IconReact,
+  IconRedux,
+  IconJavaScript,
+  IconCSS,
+  IconNode,
+  IconMongo,
 } from '@components/icons';
 
 const Icon = ({ name }) => {
@@ -47,6 +53,18 @@ const Icon = ({ name }) => {
       return <IconStar />;
     case 'Twitter':
       return <IconTwitter />;
+    case 'React':
+      return <IconReact />;
+    case 'Redux':
+      return <IconRedux />;
+    case 'JavaScript':
+      return <IconJavaScript />;
+    case 'CSS':
+      return <IconCSS />;
+    case 'Node':
+      return <IconNode />;
+    case 'Mongo':
+      return <IconMongo />;
     default:
       return <IconExternal />;
   }
