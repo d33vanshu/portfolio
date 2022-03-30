@@ -7,6 +7,9 @@ range: 'April 2021 - Present'
 url: 'https://www.masaischool.com/'
 ---
 
-- Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery
-- Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness
-- Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more
+- Building internal projects.
+- Helping students in solving conceptual doubts via standups & pair programming sessions.
+- Building communication between students & instructor.
+- Mentoring students in the field of web development.
+- Reviewing projects, portfolios and taking mock interviews to help students.
+- Delivering lectures and PSC whenever needed.

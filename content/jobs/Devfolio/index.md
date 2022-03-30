@@ -7,7 +7,8 @@ range: 'Aug 2019 - April 2021'
 url: 'https://www.devfolio.co/'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Operations Manager at Devfolio’s major hackathons- [Hack InOut](https://hackinout.co) & [ETHIndia](https://ethindia.co)
+- Handled the general operations, accounts & the community
+- Tested the product after beta deployment
+- Audited, processed and paid vendor invoices in an accurate and timely manner
+- Managed the lead partners and relations
