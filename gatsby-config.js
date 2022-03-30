@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Deevanshu Kumawat',
     description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
+      'A MERN Stack Developer with a demonstrated history of working in the internet industry. A detail-oriented professional seeking to contribute towards frontend technologies and in developing novel products.',
     siteUrl: 'https://deevanshu.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@dvanshukumawat',
